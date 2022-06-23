@@ -221,6 +221,7 @@ button:hover {
 
 .together-border:hover {
   background-color: #ff006e;
+  cursor: pointer;
 }
 
 email {
@@ -234,27 +235,25 @@ email {
 
 footer {
   align-items: center;
-  background-color: #25232d;
-  border-radius: 0.188rem;
-  color: #fff;
+  /* background-color: #25232d; */
+  /* color: #25232d; */
   display: flex;
   gap: 1.25rem;
-  justify-content: space-evenly;
-  margin: 0 auto;
-  padding: 0.625rem 0.625rem 0.625rem 0;
-  width: 70vw;
+  justify-content: center;
+  padding: 0.625rem 2.5rem 0.625rem 0;
+  width: 100vw;
 }
 
 a.social-link {
-  color: #fff;
+  color: #25232d;
 }
 
 a.social-link:visited {
-  color: #fff;
+  color: #25232d;
 }
 
 a.social-link:active {
-  color: #fff;
+  color: #25232d;
 }
 
 a.social-link:hover {
@@ -335,6 +334,7 @@ a.social-link:hover {
     height: 12.5rem;
     border: none;
     margin: 0 auto;
+    filter: none;
   }
 
   .my-work {
